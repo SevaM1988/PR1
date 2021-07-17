@@ -136,7 +136,7 @@
 
 .nav {
   width: 685px;
-  heigth: 51px;
+  height: 51px;
 }
 
 .nav ul {
@@ -168,6 +168,7 @@
   text-align: center;
 }
 
+/*slider start */
 .slider {
   background-image: url(../img/curly_man.jpg);
   width: 1608px;
@@ -176,14 +177,14 @@
   position: relative;
 }
 
-.slider-text {
+.slider_text {
   position: absolute;
   border-left: 12px solid #f16d7f;
   top: 250px;
   left: 250px;
 }
 
-.slider-text h2, .slider-text p, .slider-text span {
+.slider_text h2, .slider_text p, .slider_text span {
   font-family: Lato;
   font-weight: 900;
   letter-spacing: 0.025em;
@@ -191,7 +192,7 @@
   margin: 0;
 }
 
-.slider-text h2 {
+.slider_text h2 {
   font-size: 60px;
   color: #222222;
   line-height: 42px;
@@ -199,14 +200,82 @@
   padding-left: 15px;
 }
 
-.slider-text p {
+.slider_text p {
   font-size: 40px;
   line-height: 31px;
   padding-left: 15px;
 }
 
-.slider-text span {
+.slider_text span {
   font-size: 40px;
+  color: #f16d7f;
+}
+
+/*slider end */
+/*advertising sart */
+.advertising {
+  margin: 100px auto;
+  width: 1145px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.advertising .pic_1 {
+  background-image: url(../img/Products_advertising/pic_1.jpg);
+  width: 560px;
+  height: 542px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.advertising .pic_2 {
+  background-image: url(../img/Products_advertising/pic_2.jpg);
+  width: 560px;
+  height: 261px;
+}
+
+.advertising .pic_3 {
+  background-image: url(../img/Products_advertising/pic_3.jpg);
+  width: 560px;
+  height: 261px;
+}
+
+.advertising .pic_4 {
+  background-image: url(../img/Products_advertising/pic_4.jpg);
+  width: 560px;
+  height: 542px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+}
+
+.text_pic {
+  width: 175px;
+  height: 82px;
+  background-color: #ffffff;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.text_pic p {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222222;
+  padding: 15px 20px;
+}
+
+.text_pic p span {
+  font-size: 30px;
   color: #f16d7f;
 }
 
@@ -223,8 +292,8 @@ body {
   width: 1608px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 100% 100%;
-      grid-template-rows: 100% 100%;
+  -ms-grid-rows: 75px 51px 100%;
+      grid-template-rows: 75px 51px 100%;
   justify-items: center;
   height: 75px;
   background-color: #ffffff;
