@@ -1,20 +1,5 @@
-.width-site {
-  width: 1608px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 75px;
-  background-color: #ffffff;
-  border: 1px solid #ececec;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
-          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
-}
-
 .header {
-  width: 1140px;
+  width: 1145px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr 1fr;
@@ -114,6 +99,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-self: end;
 }
 
 .cart_MyAcc a {

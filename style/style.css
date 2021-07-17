@@ -1,18 +1,3 @@
-.width-site {
-  width: 1608px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 75px;
-  background-color: #ffffff;
-  border: 1px solid #ececec;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
-          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
-}
-
 .header {
   width: 1145px;
   display: -ms-grid;
@@ -114,6 +99,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-self: end;
 }
 
 .cart_MyAcc a {
@@ -148,6 +134,82 @@
   padding-left: 5px;
 }
 
+.nav {
+  width: 685px;
+  heigth: 51px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav ul li {
+  list-style: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+}
+
+.slider {
+  background-image: url(../img/curly_man.jpg);
+  width: 1608px;
+  height: 665px;
+  background-color: #e8e8e8;
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  border-left: 12px solid #f16d7f;
+  top: 250px;
+  left: 250px;
+}
+
+.slider-text h2, .slider-text p, .slider-text span {
+  font-family: Lato;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.slider-text h2 {
+  font-size: 60px;
+  color: #222222;
+  line-height: 42px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.slider-text p {
+  font-size: 40px;
+  line-height: 31px;
+  padding-left: 15px;
+}
+
+.slider-text span {
+  font-size: 40px;
+  color: #f16d7f;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,5 +217,19 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.width-site {
+  width: 1608px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100% 100%;
+      grid-template-rows: 100% 100%;
+  justify-items: center;
+  height: 75px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
 }
 /*# sourceMappingURL=style.css.map */
