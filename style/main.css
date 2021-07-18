@@ -110,4 +110,27 @@
 }
 
 /*advertising end */
+/*Prod_heading start */
+.prod_heading {
+  text-align: center;
+}
+
+.prod_heading h3 {
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 54px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #222222;
+  margin: 0;
+}
+
+.prod_heading p {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #9f9f9f;
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */
