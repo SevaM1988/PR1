@@ -70,7 +70,7 @@
 }
 
 .search details summary:after {
-  content: '\23F7';
+  content: '\25BE';
   font-size: 15px;
   line-height: 32px;
   font-weight: 400;
@@ -127,7 +127,7 @@
 }
 
 .cart_MyAcc details summary:after {
-  content: '\23F7';
+  content: '\25BE';
   font-size: 15px;
   line-height: 32px;
   font-weight: 400;
